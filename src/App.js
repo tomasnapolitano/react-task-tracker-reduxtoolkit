@@ -1,21 +1,13 @@
+import TaskList from "./components/TaskList";
+import Task from "./components/Task"
+import TaskForm from "./components/TaskForm"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <TaskList/>
+      <TaskForm/>
+      <Task/>
     </div>
   );
 }
